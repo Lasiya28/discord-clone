@@ -3,8 +3,8 @@ import express from "express";
 import Gun from "gun";
 import cors from "cors";
 
-const app = express();
 const port = process.env.PORT || 9000;
+const app = express();
 
 app.use(cors());
 
